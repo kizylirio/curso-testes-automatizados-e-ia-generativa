@@ -12,5 +12,8 @@
     "lodash": "^4.17.21",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^15.6.0"
   }
 }
