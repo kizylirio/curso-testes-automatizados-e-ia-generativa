@@ -4,7 +4,9 @@
   "description": "Express backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "cypress:open": "cypress open",
+    "playwright:ui": "npx playwright test --ui --project=default --config=playwright.config.js || npx playwright test --ui"
   },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
@@ -14,6 +16,8 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
-    "cypress": "^15.6.0"
+    "@playwright/test": "^1.56.1",
+    "cypress": "^15.6.0",
+    "playwright": "^1.56.1"
   }
 }
